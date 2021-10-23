@@ -1,0 +1,190 @@
+/*home section*/
+
+/*navbar section*/
+.Home{
+    background-color: #F8485E;
+    padding: 2rem 2rem 4rem;
+}
+#navigation{
+    padding-top: 1rem;
+}
+.large{
+    font-size: 2.3rem;
+    font-family: "Bree Serif";
+    margin-left: 7rem;
+}
+
+
+
+.nav-list{
+    margin-left: 18rem;
+    margin-right: 0px;
+}
+
+.nav-list li{
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.nav-list li a:hover{
+    opacity: 0.7;
+}
+
+/*intro section*/
+#intro{
+    margin: 4rem 0px 0px 0px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#intro p{
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+}
+
+.poem{
+    text-align: left;
+    padding-top: 1.1rem;
+}
+
+
+/*2019*/
+#begin{
+    padding: 3rem;
+    background-color: azure;
+}
+
+.pic-text{
+    margin-bottom: 3rem;
+}
+
+.p{
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.4rem;
+    font-family: cursive;
+    color: revert;
+}
+
+/*2020*/
+#inter{
+    padding: 3rem;
+    background-color: #F8485E;
+
+}
+
+#end{
+    padding: 3rem;
+    background-color: #F8485E;
+
+}
+
+.white{
+    color: aliceblue;
+}
+
+
+.p-left-inter{
+    margin-left: 461px;
+    margin-right: 142px;
+    font-size: 1.5rem;
+    font-family: cursive;
+    padding-top: 71px;
+}
+
+.left{
+    float: left;
+    margin-left: 180px;
+}
+
+.inter-div{
+    height: 50vh;
+    margin: 50px 0px;
+}
+
+.right{
+    float: right;
+    margin-right: 163px;
+}
+
+.p-right-inter{
+    font-size: 1.5rem;
+    font-family: cursive;
+    padding: 62px 178px;
+    padding-right: 595px;
+}
+
+.car-item{
+    padding: 7% 15%;
+}
+
+.car{
+    text-align: center;
+    background-color: #F8485E;
+    color: #fff  ;
+}
+
+
+.vid{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    /* padding: 2px 223px 0px 203px; */
+    /* margin-top: 0px; */
+    background-color: brown
+}
+
+.vid video{
+    position: absolute;
+    right: 0vw;
+    height: 100%;
+    width: 100%;
+    /* margin-bottom: 308px; */
+    padding: 0px 326px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.b-radius1{
+    border-radius: 45px;
+}
+
+.b-radius2{
+    border-radius: 180px;
+}
+
+
+
+
+
+
+img{
+    height: 47vh;
+}
+
+.img{
+    text-align: center;
+    width: 35rem;
+    padding:0px  6rem;
+}
+
+@media(max-width:1028px){
+    .large{
+        margin-left: 0px;
+    }
+    .poem{
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    #intro p{
+        font-size: 1.1rem;
+    }
+}

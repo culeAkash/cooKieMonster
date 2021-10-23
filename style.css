@@ -1,0 +1,112 @@
+
+/*intro page*/
+#intro-body{
+    background-color: #F8485E;
+    text-align: center;
+    
+}
+
+
+
+#intro{
+    margin: 30vh 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 55px;
+}
+
+#intro video{
+    height: 80vh;
+}
+
+.nav-button
+{
+    background-color: #105E62;
+    color: aliceblue;
+    padding: 0px;
+    
+}
+
+.btn-3d-1 a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 5px 10px;
+    width: 170px;  
+}
+
+
+.btn-3d-1{
+    position: relative;
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    font-size: 1.5rem;
+    box-shadow: -6px 6px 0 hsl(16,100%,30%);
+    /*negative h-value will give in left side
+    negative v-value will give in down side*/
+    outline: none;
+}
+
+    .btn-3d-1:hover{
+        background-color: hsl(16,100%,45%);
+    }
+
+
+    .btn-3d-1:active{
+        background-color: hsl(16,100%,40%);
+        top:3px;
+        left: -3px;
+        box-shadow: -3px 3px 0 hsl(16,100%,30%);
+    }
+
+
+    /* before creates a new element before the said element */
+.btn-3d-1::before{
+        position: absolute;
+        display: block;
+        content: "";
+        height: 0;
+        width: 0;
+
+        border: 6px solid transparent;
+        border-right: solid 6px hsl(16,100%,30%);
+        border-left-width: 0px ;
+       top: 0;
+        left:-6px;
+    }
+
+    .btn-3d-1:active::before{
+        border: 3px solid transparent;
+        border-right: solid 3px hsl(16,100%,30%);
+        border-left-width: 0px ;
+       top: 0;
+        left:-3px;
+    }
+
+
+
+
+ .btn-3d-1::after{
+        position: absolute;
+        display: block;
+        content: "";
+        height: 0;
+        width: 0;
+
+        border: 6px solid transparent;
+        border-top: solid 6px hsl(16,100%,30%);
+        border-bottom-width: 0px ;
+       right: 0;
+       bottom: -6px;
+    }
+
+    .btn-3d-1:active::after{
+        border: 3px solid transparent;
+        border-top: solid 3px hsl(16,100%,30%);
+        border-bottom-width: 0px ;
+      right: 0;
+      bottom: -3px;
+    }
+
